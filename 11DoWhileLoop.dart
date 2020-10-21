@@ -7,9 +7,9 @@ Types :
 4.for each loop
 */
 void main(){
-int i = 1;
-while(i<=100){
+int i = 100;
+do{
   print(i);
   i++;
-}
+}while(i<=10);
 }
