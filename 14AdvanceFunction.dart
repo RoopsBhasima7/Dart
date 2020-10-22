@@ -12,7 +12,7 @@ void main(){
 newAdd(10,20);
 }
 
-int add(a,b){
+int add(a,b,[c]){
   return a+b;
 }
 
@@ -20,7 +20,7 @@ int diff(a,b){
   return a-b;
 }
 
-void newAdd(a,b){
+void newAdd(a,b,[c]){
   int sum = a+b;
   print("The sum is "+sum.toString());
 }
