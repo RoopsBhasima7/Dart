@@ -6,8 +6,23 @@ Function Types
 4.No return Type and Parameter
 */
 void main(){
-String age = defaultName();
-print(age);
+// String name = defaultName();
+// int sum = diff(1,8);
+// print(sum);
+newAdd(10,20);
+}
+
+int add(a,b){
+  return a+b;
+}
+
+int diff(a,b){
+  return a-b;
+}
+
+void newAdd(a,b){
+  int sum = a+b;
+  print("The sum is "+sum.toString());
 }
 
 int showDefaultAge(){
