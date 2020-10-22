@@ -7,12 +7,16 @@ Types :
 4.for each loop
 */
 void main(){
-var name = ["Aanchal","Aakanshya","Suman","Sujit"];
+var name = ["Aanchal","Sujata","Aakanshya","Tejan","Suman","Sujit","Radha"];
 //name.removeLast();
-name.removeAt(1);
+//name.removeAt(1);
+//name.sort();
+name.forEach((element) {
+  print(element);
+});
 var a = name.length;
-print(a);
-for (var item in name) {
-  print("Name is $item");
-}
+print(name.indexOf("Aakanshya"));
+// for (var item in name) {
+//   print("Name is $item");
+// }
 }
