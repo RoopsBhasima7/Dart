@@ -20,9 +20,12 @@ int diff(a,b){
   return a-b;
 }
 
-void newAdd(a,b,[c]){
-  int sum = a+b;
-  print("The sum is "+sum.toString());
+void newAdd(a,b,[c=1]){
+  print(a);
+  print(b);
+  print(c);
+  // int sum = a+b;
+  // print("The sum is "+sum.toString());
 }
 
 int showDefaultAge(){
