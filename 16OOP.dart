@@ -15,5 +15,6 @@ class Add{
 }
 
 void main(){
-  
+  Add a = new Add(10,25);
+  a.add();
 }
