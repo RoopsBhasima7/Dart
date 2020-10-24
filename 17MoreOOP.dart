@@ -7,6 +7,14 @@ class Human{
   bool isMarried;
 
   //Ctor
+  //Getter and Setter
+  void setaddress(String address){
+    this.address=address;
+  }
+
+  String getAddress(){
+    return address;
+  }
   //Human(this.id,this.name,this.address,this.birthdate,this.isMarried);
   Human(int id,String name,String address, DateTime birthdate, bool isMarried){
     this.id = id;
@@ -31,5 +39,6 @@ void main(){
   Human samana = Human(1, "Samana","Bhaktapur",DateTime(2020-14-14),false);
 
   rupesh.showHumanDetails();
-  samana.showHumanDetails();
+  samana.setaddress("Delhi");
+  print(samana.getAddress());
 }
